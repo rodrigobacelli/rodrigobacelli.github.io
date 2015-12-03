@@ -16,11 +16,22 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin()
   ],
+  resolve: {
+    alias: {
+      'css': path.join(__dirname, 'css'),
+    },
+    extensions: ['', '.js', '.jsx', '.css']
+  },
   module: {
     loaders: [{
       test: /\.js$/,
       loaders: ['babel'],
       include: path.join(__dirname, 'src')
+    },
+    {
+      test: /\.css?$/,
+      loaders: [ 'style-loader', 'css-loader' ],
+      include: __dirname
     }]
   }
 };
