@@ -2,7 +2,6 @@ import React, { Component, propTypes } from 'react';
 
 export default class Container extends Component {
     render() {
-        console.log(this.props);
         return (
             <div
                 className={

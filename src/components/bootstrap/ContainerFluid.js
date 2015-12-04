@@ -1,15 +1,16 @@
 import React, { Component, propTypes } from 'react';
 
-export default class Row extends Component {
+export default class ContainerFluid extends Component {
     render() {
         return (
             <div
                 className={
-                    (this.props.className)?"row "+this.props.className:"row"
+                    (this.props.className)?
+                        "container-fluid "+this.props.className:"container-fluid"
                 }
                 id={ this.props.id }
             >
-                { this.props.children }
+                {this.props.children}
             </div>
         );
     }

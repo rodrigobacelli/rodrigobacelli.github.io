@@ -32,6 +32,11 @@ module.exports = {
       test: /\.css?$/,
       loaders: [ 'style-loader', 'css-loader' ],
       include: __dirname
+    },
+    {
+      test: /\.(jpe|jpg|woff|woff2|eot|ttf|svg)(\?.*$|$)/,
+      loader: 'url-loader?importLoaders=1&limit=100000',
+      include: __dirname
     }]
   }
 };
