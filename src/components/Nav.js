@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {ContainerFluid, Row, Col} from './bootstrap';
 import {Link} from 'react-router';
 
-export default class Home extends Component {
+export default class Nav extends Component {
     render() {
         return(
             <header className="navbar">

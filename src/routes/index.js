@@ -2,11 +2,11 @@ import React, { Component, PropTypes } from 'react'
 import { Router, Route, IndexRoute } from 'react-router';
 import createBrowserHistory from 'history/lib/createBrowserHistory';
 import App from "../components/App"
-import Home from "../components/Home"
+import Gallery from "../components/Gallery"
 
 const routes =
     <Route component={App}>
-        <Route path="/" component={Home} />
+        <Route path="/" component={Gallery} />
     </Route>;
 
 export default class Routes extends Component{

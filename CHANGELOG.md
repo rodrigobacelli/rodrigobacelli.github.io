@@ -2,6 +2,16 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## UNRELEASED - Unreleased
+### Added
+- Reselect
+- Gallery component
+### Updated
+- Added initialState to application
+- Moved Nav from Home to App component
+### Removed
+- Home component
+
 ## [0.2.0] - 2015-12-03
 ### Added
 - Bootstrap Components

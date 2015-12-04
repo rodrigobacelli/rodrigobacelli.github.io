@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
-import {Link} from "react-router"
+import Nav from "./Nav"
 
 export default class App extends Component {
   render() {
-    return React.cloneElement(this.props.children);
+    return (
+        <div>
+          <Nav />
+          { React.cloneElement(this.props.children) }
+        </div>
+    );
   }
 }
