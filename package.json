@@ -1,6 +1,6 @@
 {
   "name": "rodrigo-bacelli-github-io",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Rodrigo Bacelli's Portfolio",
   "scripts": {
     "clean": "rimraf dist",
