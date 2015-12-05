@@ -6,6 +6,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Reselect
 - Gallery component
+- Footer Component
+- Font Awesome React
 ### Updated
 - Added initialState to application
 - Moved Nav from Home to App component

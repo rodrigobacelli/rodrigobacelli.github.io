@@ -35,6 +35,7 @@ header{
 }
 .container{
     padding-top: 20px;
+    padding-bottom: 50px;
 }
 header a.logo:hover{
     text-decoration: none;
@@ -51,4 +52,50 @@ header .desc{
 
 header img{
     fill: #957e51;
+}
+
+.gallery .project{
+    margin-top: 20px;
+}
+
+.gallery .project img{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: url(../svg/grayscale.svg); /* Firefox 4+ */
+    filter: gray; /* IE 6-9 */
+}
+.gallery .project img:hover{
+    -webkit-filter:  none;
+    -moz-filter:  none;
+    -ms-filter:  none;
+    -o-filter: none;
+    filter: none;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    color: #957e51;
+}
+
+footer a{
+    display: inline-block;
+    width: auto;
+    padding: 0 10px;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+footer a .linkedin:hover{
+    color: #004471;
+}
+footer a .github:hover{
+    color: #333;
 }

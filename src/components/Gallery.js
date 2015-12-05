@@ -1,19 +1,30 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from './bootstrap';
 import { Link } from 'react-router';
+import { connect } from 'react-redux';
+import { gallery } from '../data/selectors'
 
-export default class Home extends Component {
+class Gallery extends Component {
     render() {
+        console.log(this.props);
         return (
             <Container>
-                <Row className="teste teste2" >
-                    <Col xs="12" sm="6" md="4" >
-                        <Link to={`/`}>
-                            <img src="http://www.hdwallpapers.org/wallpapers/caribbean-sea-beautiful-clouds-1920x1080.jpg" />
-                        </Link>
-                    </Col>
+                <Row className="gallery" >
+                    {
+                        this.props.projects.map(function(item){
+                            return(
+                                <Col xs="12" sm="4" md="3"  lg="3" className="project">
+                                    <Link to={`/`+item.slug}>
+                                        <img src={item.image} />
+                                    </Link>
+                                </Col>
+                            )
+                        })
+                    }
                 </Row>
             </Container>
         );
     }
 }
+
+export default connect(gallery)(Gallery)
