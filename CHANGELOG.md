@@ -3,6 +3,8 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## UNRELEASED - Unreleased
+
+## [0.3.0] - 2015-12-05 
 ### Added
 - Reselect
 - Gallery component
@@ -14,7 +16,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Removed
 - Home component
 
-## [0.2.0] - 2015-12-03
+## [0.2.0] - 2015-12-04
 ### Added
 - Bootstrap Components
 - Nav Components

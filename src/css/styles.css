@@ -7,13 +7,17 @@
 }
 html,body{
     width: 100%;
-    height: auto;
+    height: 100%;
     background-color: #fff6e5;
-
+}
+#root{
+    position: relative;
+    min-height: 100%;
+    width: 100%;
 }
 a {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: none!important;
+    color: inherit!important;
     display: block;
 }
 a:hover{
@@ -25,6 +29,7 @@ img{
     max-height: 100%;
 }
 header{
+    position: absolute;
     height: 70px;
     width: 100%;
     line-height: 70px;
@@ -34,30 +39,26 @@ header{
     border-bottom: 1px solid #957e51;
 }
 .container{
-    padding-top: 20px;
+    padding-top: 100px;
     padding-bottom: 50px;
+    position: relative;
+    display: block;
+}
+header{
+    z-index: 3;
 }
 header a.logo:hover{
-    text-decoration: none;
-    color: #7a602d;
+    color: #7a602d!important;
 }
 header a.logo{
     font-family: "moderna", Arial, sans-serif;
 }
-
-header .desc{
-    font-family: "roboto_condensedlight", Arial, sans-serif;
-    font-size: 18px;
+.gallery{
+    z-index: 1;
 }
-
-header img{
-    fill: #957e51;
-}
-
 .gallery .project{
     margin-top: 20px;
 }
-
 .gallery .project img{
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
@@ -74,7 +75,18 @@ header img{
     -o-filter: none;
     filter: none;
 }
-
+.project{
+    color: #7a602d;
+    z-index: 1;
+}
+.project a{
+    display: inline-block;
+    width: auto;
+    vertical-align: top;
+}
+.project a:hover{
+    text-decoration: underline!important;
+}
 footer{
     position: absolute;
     width: 100%;
@@ -83,6 +95,7 @@ footer{
     line-height: 50px;
     text-align: right;
     color: #957e51;
+    z-index: 2;
 }
 
 footer a{
@@ -92,7 +105,9 @@ footer a{
     vertical-align: top;
     font-size: 16px;
 }
-
+footer a:hover{
+    text-decoration: underline!important;
+}
 footer a .linkedin:hover{
     color: #004471;
 }

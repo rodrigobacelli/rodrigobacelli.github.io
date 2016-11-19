@@ -2,87 +2,18 @@ import { List } from "immutable";
 
 export const initialState = List.of(
     {
-        slug: "microsoft-catalogo",
-        image: "http://www.hdwallpapers.org/wallpapers/caribbean-sea-beautiful-clouds-1920x1080.jpg",
-        name: "Microsoft Catálogo",
-        description: "Catálogo de Produtos desenvolvido para uma revenda Microsoft, seguindo a interface padrão do Window 8",
-        link: "http://microsoftcatalogo.azurewebsites.net"
+        slug: "vem-ke-tem",
+        image: require("../img/png/vem-ke-tem.png"),
+        name: "Vem Ke Tem Móveis",
+        description: "Desenvolvimento Front-End com HTML5, CSS3, JavaScript e jQUery, Back-End em PHP5 e Banco de Dados MySQL, com sistema administrativo, criação de orçamento e catálogo de produtos",
+        link: "http://www.vemketem.com.br"
     },
     {
-        slug: "microsoft-catalogo",
-        image: "http://www.hdwallpapers.org/wallpapers/caribbean-sea-beautiful-clouds-1920x1080.jpg",
-        name: "Microsoft Catálogo",
-        description: "Catálogo de Produtos desenvolvido para uma revenda Microsoft, seguindo a interface padrão do Window 8",
-        link: "http://microsoftcatalogo.azurewebsites.net"
-    },
-    {
-        slug: "microsoft-catalogo",
-        image: "http://www.hdwallpapers.org/wallpapers/caribbean-sea-beautiful-clouds-1920x1080.jpg",
-        name: "Microsoft Catálogo",
-        description: "Catálogo de Produtos desenvolvido para uma revenda Microsoft, seguindo a interface padrão do Window 8",
-        link: "http://microsoftcatalogo.azurewebsites.net"
-    },
-    {
-        slug: "microsoft-catalogo",
-        image: "http://www.hdwallpapers.org/wallpapers/caribbean-sea-beautiful-clouds-1920x1080.jpg",
-        name: "Microsoft Catálogo",
-        description: "Catálogo de Produtos desenvolvido para uma revenda Microsoft, seguindo a interface padrão do Window 8",
-        link: "http://microsoftcatalogo.azurewebsites.net"
-    },
-    {
-        slug: "microsoft-catalogo",
-        image: "http://www.hdwallpapers.org/wallpapers/caribbean-sea-beautiful-clouds-1920x1080.jpg",
-        name: "Microsoft Catálogo",
-        description: "Catálogo de Produtos desenvolvido para uma revenda Microsoft, seguindo a interface padrão do Window 8",
-        link: "http://microsoftcatalogo.azurewebsites.net"
-    },
-    {
-        slug: "microsoft-catalogo",
-        image: "http://www.hdwallpapers.org/wallpapers/caribbean-sea-beautiful-clouds-1920x1080.jpg",
-        name: "Microsoft Catálogo",
-        description: "Catálogo de Produtos desenvolvido para uma revenda Microsoft, seguindo a interface padrão do Window 8",
-        link: "http://microsoftcatalogo.azurewebsites.net"
-    },
-    {
-        slug: "microsoft-catalogo",
-        image: "http://www.hdwallpapers.org/wallpapers/caribbean-sea-beautiful-clouds-1920x1080.jpg",
-        name: "Microsoft Catálogo",
-        description: "Catálogo de Produtos desenvolvido para uma revenda Microsoft, seguindo a interface padrão do Window 8",
-        link: "http://microsoftcatalogo.azurewebsites.net"
-    },
-    {
-        slug: "microsoft-catalogo",
-        image: "http://www.hdwallpapers.org/wallpapers/caribbean-sea-beautiful-clouds-1920x1080.jpg",
-        name: "Microsoft Catálogo",
-        description: "Catálogo de Produtos desenvolvido para uma revenda Microsoft, seguindo a interface padrão do Window 8",
-        link: "http://microsoftcatalogo.azurewebsites.net"
-    },
-    {
-        slug: "microsoft-catalogo",
-        image: "http://www.hdwallpapers.org/wallpapers/caribbean-sea-beautiful-clouds-1920x1080.jpg",
-        name: "Microsoft Catálogo",
-        description: "Catálogo de Produtos desenvolvido para uma revenda Microsoft, seguindo a interface padrão do Window 8",
-        link: "http://microsoftcatalogo.azurewebsites.net"
-    },
-    {
-        slug: "microsoft-catalogo",
-        image: "http://www.hdwallpapers.org/wallpapers/caribbean-sea-beautiful-clouds-1920x1080.jpg",
-        name: "Microsoft Catálogo",
-        description: "Catálogo de Produtos desenvolvido para uma revenda Microsoft, seguindo a interface padrão do Window 8",
-        link: "http://microsoftcatalogo.azurewebsites.net"
-    },
-    {
-        slug: "microsoft-catalogo",
-        image: "http://www.hdwallpapers.org/wallpapers/caribbean-sea-beautiful-clouds-1920x1080.jpg",
-        name: "Microsoft Catálogo",
-        description: "Catálogo de Produtos desenvolvido para uma revenda Microsoft, seguindo a interface padrão do Window 8",
-        link: "http://microsoftcatalogo.azurewebsites.net"
-    },
-    {
-        slug: "microsoft-catalogo",
-        image: "http://www.hdwallpapers.org/wallpapers/caribbean-sea-beautiful-clouds-1920x1080.jpg",
-        name: "Microsoft Catálogo",
-        description: "Catálogo de Produtos desenvolvido para uma revenda Microsoft, seguindo a interface padrão do Window 8",
-        link: "http://microsoftcatalogo.azurewebsites.net"
+        slug: "chamativa-moda",
+        image: require("../img/png/chamativa-moda.png"),
+        name: "Chamativa moda",
+        description: "Desenvolvimento Front-End com HTML5, CSS3, JavaScript e jQUery, Back-End em PHP5 e Banco de Dados MySQL, com sistema administrativo, sistema de pedidos e catálogo de produtos",
+        link: "http://chamativamoda.com.br/",
+        deprecated: 1
     }
 );

@@ -34,7 +34,7 @@ module.exports = {
       include: __dirname
     },
     {
-      test: /\.(jpe|jpg|woff|woff2|eot|ttf|svg)(\?.*$|$)/,
+      test: /\.(jpe|jpg|woff|woff2|eot|ttf|svg|png)(\?.*$|$)/,
       loader: 'url-loader?importLoaders=1&limit=100000',
       include: __dirname
     }]

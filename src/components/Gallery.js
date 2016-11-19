@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from './bootstrap';
 import { Link } from 'react-router';
 import { connect } from 'react-redux';
-import { gallery } from '../data/selectors'
+import { gallery } from '../data/selectors';
 
 class Gallery extends Component {
     render() {
-        console.log(this.props);
         return (
             <Container>
                 <Row className="gallery" >
